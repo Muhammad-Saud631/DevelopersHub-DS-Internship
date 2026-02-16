@@ -1,62 +1,195 @@
-# Task 1 - Bank Term Deposit Prediction
+DevelopersHub Corporation
+Data Science & AI/ML Engineering – Advanced Internship Tasks
 
-**Objective:**  
-Predict whether a bank customer will subscribe to a term deposit as a result of a marketing campaign.
+Due Date: 15th February, 2026
 
-**Dataset:**  
-Bank Marketing Dataset (`bank.csv`) from UCI Machine Learning Repository.
+📌 Overview
 
-**Techniques & Models Used:**  
-- **Data preprocessing:** Label encoding for categorical variables  
-- **Feature scaling:** StandardScaler (for Logistic Regression)  
-- **Models:** Logistic Regression, Random Forest  
-- **Evaluation Metrics:** Confusion Matrix, F1 Score, Classification Report, ROC Curve  
-- **Explainability:** Random Forest feature importance + individual predictions
+This repository contains my completed advanced internship tasks for the Data Science & AI/ML Engineering Internship at DevelopersHub Corporation.
 
-**Outcome:**  
-The models successfully predicted term deposit subscription, and feature importance analysis provided insights into the key factors influencing customer decisions.
+These tasks provided hands-on experience in solving real-world problems including:
 
-**Instructions to Run:**  
-1. Clone the repository:  
-```bash
-git clone https://github.com/YourUsername/DevelopersHub-DS-Internship.git
+Classification
 
-# Task 02 – Customer Segmentation Using Unsupervised Learning
+Unsupervised Learning
 
-## 📌 Objective
-To segment customers based on their spending behavior and propose data-driven marketing strategies for each identified group.
+Time Series Forecasting
 
-## 🗂 Dataset
-Mall Customers Dataset
+Cost-Based Optimization
 
-## 🔍 Exploratory Data Analysis (EDA)
-- Analyzed customer age, annual income, and spending score
-- Identified spending patterns and relationships between features
+Business Intelligence Dashboarding
 
-## 🧠 Methodology
-- Applied **K-Means Clustering** to group customers
-- Used the **Elbow Method** to determine the optimal number of clusters
-- Performed **Dimensionality Reduction (PCA / t-SNE)** for cluster visualization
+I used industry-standard tools such as:
 
-## 📊 Results & Insights
-- Customers were successfully segmented into distinct clusters
-- Each cluster represents a unique spending behavior and income pattern
+pandas, numpy, scikit-learn, xgboost, shap, matplotlib, seaborn, Prophet, and Streamlit.
 
-## 📈 Marketing Strategy Suggestions
-- High income & high spending: Premium offers and loyalty programs  
-- High income & low spending: Personalized discounts and engagement campaigns  
-- Low income & high spending: Value deals and budget-friendly promotions  
-- Low income & low spending: Awareness campaigns and seasonal offers  
+🚀 Completed Tasks
+✅ Task 1: Term Deposit Subscription Prediction
 
-## 🛠 Tools & Libraries
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- Matplotlib, Seaborn
+Dataset: UCI Machine Learning Repository – Bank Marketing Dataset
 
-## 🎯 Skills Gained
-- Unsupervised Learning (K-Means)
-- Dimensionality Reduction (PCA / t-SNE)
-- Customer Segmentation
-- Data-driven Strategy Development
+🎯 Objective:
 
+Predict whether a bank customer will subscribe to a term deposit.
+
+🔧 Work Done:
+
+Data preprocessing & categorical encoding
+
+Logistic Regression & Random Forest
+
+Evaluation: Confusion Matrix, F1-Score, ROC Curve
+
+Model explainability using SHAP
+
+🧠 Skills:
+
+Classification Modeling | Feature Encoding | Explainable AI (XAI)
+
+✅ Task 2: Customer Segmentation Using Unsupervised Learning
+
+Dataset: Mall Customers Dataset
+
+🎯 Objective:
+
+Cluster customers based on spending behavior and suggest marketing strategies.
+
+🔧 Work Done:
+
+Exploratory Data Analysis (EDA)
+
+K-Means Clustering
+
+Optimal cluster selection using Elbow Method
+
+PCA for dimensionality reduction & cluster visualization
+
+Segment-based marketing strategy recommendations
+
+📊 Identified Customer Segments:
+
+High Income – High Spending
+
+High Income – Low Spending
+
+Low Income – High Spending
+
+Low Income – Low Spending
+
+🧠 Skills:
+
+Unsupervised Learning | Customer Segmentation | PCA | Business Strategy Design
+
+✅ Task 3: Energy Consumption Time Series Forecasting
+
+Dataset: Household Power Consumption Dataset
+
+🎯 Objective:
+
+Forecast short-term household energy usage.
+
+🔧 Work Done:
+
+Time series parsing & resampling
+
+Time-based feature engineering
+
+Compared:
+
+ARIMA
+
+Prophet
+
+XGBoost
+
+Evaluated using MAE & RMSE
+
+Actual vs Forecast visualization
+
+🧠 Skills:
+
+Time Series Forecasting | Feature Engineering | Model Comparison
+
+✅ Task 4: Loan Default Risk with Business Cost Optimization
+
+Dataset: Home Credit Default Risk Dataset
+
+🎯 Objective:
+
+Predict loan default probability and optimize decision threshold using business cost analysis.
+
+🔧 Work Done:
+
+Data preprocessing
+
+Logistic Regression modeling
+
+Defined cost for False Positives & False Negatives
+
+Threshold tuning to minimize business loss
+
+Risk scoring system
+
+🧠 Skills:
+
+Binary Classification | Cost-Sensitive Learning | Risk Modeling
+
+✅ Task 5: Interactive Business Dashboard in Streamlit
+
+Dataset: Global Superstore Dataset
+
+🎯 Objective:
+
+Build an interactive BI dashboard for sales and profit analysis.
+
+🔧 Features:
+
+Filters: Region, Category, Sub-Category
+
+KPIs:
+
+Total Sales
+
+Total Profit
+
+Top 5 Customers by Sales
+
+Interactive visualizations
+
+🧠 Skills:
+
+Business Intelligence | Data Storytelling | Dashboard Development
+
+🛠 Tools & Technologies
+
+Python
+
+Pandas
+
+NumPy
+
+Scikit-learn
+
+XGBoost
+
+SHAP
+
+Prophet
+
+Matplotlib & Seaborn
+
+Streamlit
+
+📈 Overall Learning Outcomes
+
+✔ End-to-end ML project development
+✔ Customer segmentation & strategy design
+✔ Time series forecasting & evaluation
+✔ Business cost optimization
+✔ Interactive BI dashboard creation
+
+👨‍💻 Author
+
+Saud Hassan
+Software Engineering Student
+Data Science & AI/ML Enthusiast
