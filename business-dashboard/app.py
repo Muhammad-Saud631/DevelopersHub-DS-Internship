@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 st.title("📊 Global Superstore Business Dashboard")
 
 # Load Dataset
-df = pd.read_csv("Global_Superstore.csv", encoding='latin1')
+df = pd.read_csv("business-dashboard/Global_Superstore.csv", encoding='latin1')
 
 # Convert Order Date
 df['Order Date'] = pd.to_datetime(df['Order Date'], dayfirst=True, errors='coerce')
